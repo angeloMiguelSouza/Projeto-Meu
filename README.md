@@ -1,2 +1,10 @@
-# Projeto-Meu
+# Meu-Projeto
 # Um pouco sobre meu projeto: isso é um teste
+ while True:
+    idade = int(input("Qual sua idade? "))
+    if idade > 18:
+     print(f"Você é maior de idade.")
+    elif idade < 17:
+     print (f"Você é menor de idade.")
+    else:
+     print(f"idade invalida.")
